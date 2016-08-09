@@ -4,6 +4,6 @@
 <% @shoes.each do |shoe| %>
   <p>Name: <span class="colour-word"><%= shoe.pretty_name  %></span></p>
   <p>Order: <span class="colour-word"><%= shoe.quantity%> x Size <%= shoe.size %> in <%=shoe.colour %></span></p>
-  <p>Shipping address: <span class="colour-word"><%= shoe.street_address  %>, <%= shoe.town  %>, <%= shoe.postcode.upcase %></span> </p>
+  <p>Shipping address: <span class="colour-word"><%= shoe.street_address%>, <%= shoe.town%>, <%= shoe.postcode.upcase %></span> </p>
   <hr>
 <% end %>

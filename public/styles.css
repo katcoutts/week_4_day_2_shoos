@@ -6,7 +6,7 @@ body {
   height: 90%;
   background-color: #ff4d4d;
   font-family: "Arial Black", Gadget, sans-serif;
-  padding: 20px;
+  text-indent: 50px;
 }
 
 h1 {
@@ -19,11 +19,16 @@ h1 {
   color: #000066;
 }
 
+header {
+  background-color: grey;
+  min-width: 100%;
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+}
 
 .page-wrap {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -22px; 
+  min-height: calc(100vh - 80px);
 }
 .page-wrap:after {
   content: "";
@@ -36,4 +41,5 @@ h1 {
   width: 100%;
   padding: 0px;
   font-size: 10px;
+  text-align: center;
 }
