@@ -1,0 +1,22 @@
+<h2>Thanks for buying from Shoos</h2>
+<h2>Here are your order details</h2>
+
+<h3>Name:</h3>
+<p><span class="colour-word"><%= @shoe.pretty_name() %></span></p>
+
+<h3>Size:</h3>
+<p><span class="colour-word"><%= @shoe.size() %></span></p>
+
+<h3>Colour:</h3>
+<p> <span class="colour-word"><%= @shoe.colour() %></span></p>
+
+<h3>Quantity:</h3>
+<p><span class="colour-word"><%= @shoe.quantity() %></span></p>
+
+<h3>Total cost:</h3>
+<p><span class="colour-word">£<%= @shoe.total %></span></p>
+
+<h3>Shipping to:</h3>
+<p><span class="colour-word"><%= @shoe.street_address %></span></p>
+<p><span class="colour-word"><%= @shoe.town %></span></p>
+<p><span class="colour-word"><%= @shoe.postcode.upcase %></span></p>

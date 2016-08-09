@@ -1,0 +1,39 @@
+html{
+  height: 100%;
+}
+
+body {
+  height: 90%;
+  background-color: #ff4d4d;
+  font-family: "Arial Black", Gadget, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #000066;
+  text-align: center;
+}
+
+.colour-word{
+  color: #000066;
+}
+
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -22px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 22px; 
+}
+.site-footer {
+  width: 100%;
+  padding: 0px;
+  font-size: 10px;
+}
